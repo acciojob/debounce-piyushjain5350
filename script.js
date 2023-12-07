@@ -13,6 +13,7 @@ function debounce(callback, delay, immediate = false) {
     }
 
     timeoutId = setTimeout(executeCallback, delay);
-  }
-  
-  module.exports = debounce;
+  };
+}
+
+module.exports = debounce;
